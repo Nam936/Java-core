@@ -1,11 +1,12 @@
-package MyPackage;
+package BaiBoSung;
 
+import java.util.Locale;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class convert {
     public static void main(String[] args ){
-
+        Locale vn = new Locale("vi", "vn");
         String a= String.valueOf(new char[]{'c'});
         String string = new String();
         double c;

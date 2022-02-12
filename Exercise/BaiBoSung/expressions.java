@@ -1,11 +1,13 @@
-package MyPackage;
+package BaiBoSung;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class expressions {
     public static void main(String[] args){
         int a;
         int b;
+        Locale vn = new Locale("vi", "vn");
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("nhâp a: ");

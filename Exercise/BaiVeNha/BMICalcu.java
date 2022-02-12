@@ -1,5 +1,6 @@
-package MyPackage;
+package BaiVeNha;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class BMICalcu {
@@ -7,7 +8,7 @@ public class BMICalcu {
         double weight;
         double height;
         double BMI;
-
+        Locale vn = new Locale("vi", "vn");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập cân nặng của bạn: ");
         weight = scanner.nextDouble();

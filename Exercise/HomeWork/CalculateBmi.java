@@ -1,4 +1,4 @@
-package MyPackage;
+package HomeWork;
 
 public class CalculateBmi {
     //Kiểu double

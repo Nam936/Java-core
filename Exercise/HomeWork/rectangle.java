@@ -1,4 +1,4 @@
-package MyPackage;
+package HomeWork;
 
 public class rectangle {
     public static void main(String[] args ){
