@@ -1,3 +1,5 @@
+package MyPackage;
+
 public class triangle {
 
         public static void main(String[] args ){

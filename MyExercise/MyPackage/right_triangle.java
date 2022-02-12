@@ -1,3 +1,5 @@
+package MyPackage;
+
 import java.util.Scanner;
 
 public class right_triangle {

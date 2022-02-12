@@ -1,3 +1,5 @@
+package MyPackage;
+
 public class CalculateBmi {
     //Kiểu double
     public  static double bmiCalcu(float v){
