@@ -18,7 +18,7 @@ public class Cau1 {
             if (i < temp.length - 1)
                 rs += " ";
         }
-        System.out.println(rs);
+        System.out.println("Chuỗi sau khi chuẩn hóa: " + rs);
     }
     public static void main(String[] args) {
         ChuanHoaChuoi();
