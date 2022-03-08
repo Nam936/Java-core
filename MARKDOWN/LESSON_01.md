@@ -16,14 +16,14 @@
 ###Create table film
 ```roomsql
     CREATE TABLE film(
-    id int PRIMARY KEY AUTO_INCREMENT,
-    title text not null,
-    description text not null,
-    poster text not null,
-    release_year int not null,
-    length int not null,
-    id_description int,
-    FOREIGN KEY (id_description) REFERENCES description(id)
+        id int PRIMARY KEY AUTO_INCREMENT,
+        title text not null,
+        description text not null,
+        poster text not null,
+        release_year int not null,
+        length int not null,
+        id_description int,
+        FOREIGN KEY (id_description) REFERENCES description(id)
     )
 ```
 ###Create table actor
@@ -60,7 +60,7 @@
         id_film int,
         PRIMARY KEY (id_category, id_film),
         FOREIGN KEY (id_category) REFERENCES category(id),
-         FOREIGN KEY (id_film) REFERENCES film(id)
+        FOREIGN KEY (id_film) REFERENCES film(id)
     )
 ```
 ###Image design set
