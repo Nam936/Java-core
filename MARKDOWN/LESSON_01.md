@@ -1,13 +1,12 @@
 # MOVIE
-
-### Create **database**
 ***
+### Create **database**
+
 ```roomsql
    CREATE DATABASE Movie;
 ```
 
 ### Create table `description`
-***
 ```roomsql
     CREATE TABLE director(
        id int PRIMARY KEY AUTO_INCREMENT,
@@ -16,9 +15,7 @@
        description text not null
     )
 ```
-
 ### Create table `film`
-***
 ```roomsql
     CREATE TABLE film(
         id int PRIMARY KEY AUTO_INCREMENT,
@@ -32,7 +29,6 @@
     )
 ```
 ### Create table `actor`
-***
 ```roomsql
     CREATE TABLE actor(
         id int PRIMARY KEY AUTO_INCREMENT,
@@ -42,7 +38,6 @@
     )
 ```
 ### Create table `category`
-***
 ```roomsql
     CREATE TABLE category(
         id int PRIMARY KEY AUTO_INCREMENT,
@@ -51,7 +46,6 @@
 
 ```
 ### Create table `actor_film`
-***
 ```roomsql
     CREATE TABLE actor_film(
         id_actor int,
@@ -62,7 +56,6 @@
     )
 ```
 ### Create table `category_film`
-***
 ```roomsql
     CREATE TABLE category_film(
         id_category int,
@@ -73,5 +66,4 @@
     )
 ```
 ### Image design set
-***
 ![design set](image/design_set_movie.png)
