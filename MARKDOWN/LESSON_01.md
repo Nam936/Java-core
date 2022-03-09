@@ -1,5 +1,4 @@
 # MOVIE
-***
 ### Create **database**
 
 ```roomsql
